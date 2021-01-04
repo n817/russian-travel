@@ -1,0 +1,17 @@
+.footer__links {
+  width: 464px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 767px) {
+  /* стили для экранов с разрешением менее 768px по ширине */
+  .footer__links {
+    width: 186px;
+    min-height: 248px;
+    flex-direction: column;
+  }
+}

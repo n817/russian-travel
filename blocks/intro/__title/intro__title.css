@@ -1,0 +1,14 @@
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* стили для экранов с разрешением менее 768px по ширине */
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

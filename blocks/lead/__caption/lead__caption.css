@@ -1,24 +1,22 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding-top: 28px;
-  padding-left: 48px;
-  padding-right: 48px;
-  margin: 0 auto;
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding-top: 8px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1023px) {
   /* стили для экранов с разрешением менее 1024px по ширине */
-  .header {
+  .lead__caption {
     padding-left: 24px;
-    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 424px) {
   /* стили для экранов с разрешением менее 425px по ширине */
-  .header {
-    padding: 16px;
+  .lead__caption {
+    padding-left: 16px;
   }
 }

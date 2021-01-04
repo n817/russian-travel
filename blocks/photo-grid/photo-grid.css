@@ -1,0 +1,35 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding-top: 92px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+@media screen and (max-width: 1279px) {
+  /* выстраиваем изображения в 3 колонки для для экранов с разрешением менее 1280px по ширине */
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* выстраиваем изображения в 2 колонки для для экранов с разрешением менее 1024px по ширине */
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* выстраиваем изображения в 1 колонку для для экранов с разрешением менее 425px по ширине */
+  .photo-grid {
+    grid-template-columns: 1fr;
+    padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__link {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s linear;
+}
+
+@media screen and (max-width: 767px) {
+  /* стили для экранов с разрешением менее 768px по ширине */
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}

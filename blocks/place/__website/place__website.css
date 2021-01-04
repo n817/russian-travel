@@ -1,0 +1,12 @@
+.place__website {
+  display: block;
+  align-self: flex-end;
+  padding-bottom: 8px;
+}
+
+@media screen and (max-width: 424px) {
+  /* скрываем элемент для экранов с разрешением менее 425px по ширине */
+  .place__website {
+    display: none;
+  }
+}

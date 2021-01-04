@@ -1,24 +1,19 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  padding-top: 28px;
-  padding-left: 48px;
-  padding-right: 48px;
-  margin: 0 auto;
+.places {
+  padding-top: 12px;
+  padding-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
   /* стили для экранов с разрешением менее 1024px по ширине */
-  .header {
-    padding-left: 24px;
-    padding-right: 24px;
+  .places {
+    padding-top: 15px;
+    padding-bottom: 90px;
   }
 }
 
 @media screen and (max-width: 424px) {
   /* стили для экранов с разрешением менее 425px по ширине */
-  .header {
-    padding: 16px;
+  .places {
+    padding-bottom: 65px;
   }
 }
