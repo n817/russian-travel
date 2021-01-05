@@ -3,7 +3,6 @@
   height: 52px;
 }
 
-
 @media screen and (max-width: 767px) {
   /* стили для экранов с разрешением менее 768px по ширине */
   .header__logo {
