@@ -3,12 +3,9 @@
   line-height: 28px;
   font-weight: 400;
   color: #FFFFFF;
+  text-decoration: none;
   margin: 0;
   margin-left: 18px;
-}
-
-.header__lang-link:last-of-type {
-  text-decoration: none;
 }
 
 .header__lang-link:hover {

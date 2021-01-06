@@ -4,9 +4,23 @@
   padding-bottom: 8px;
 }
 
-@media screen and (max-width: 424px) {
-  /* скрываем элемент для экранов с разрешением менее 425px по ширине */
+@media screen and (max-width: 1279px) {
+  /* стили для экранов с разрешением менее 1280px по ширине */
   .place__website {
-    display: none;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  /* стили для экранов с разрешением менее 1024px по ширине */
+  .place__website {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* стили для экранов с разрешением менее 425px по ширине */
+  .place__website {
+    padding-bottom: 0;
   }
 }
