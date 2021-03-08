@@ -1,12 +1,17 @@
 .header__logo {
   width: 176px;
-  height: 52px;
 }
 
 @media screen and (max-width: 767px) {
   /* стили для экранов с разрешением менее 768px по ширине */
   .header__logo {
-    width: 142px;
-    height: 42px;
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* стили для экранов с разрешением менее 425px по ширине */
+  .header__logo {
+    width: 120px;
   }
 }

@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
+  <script src="./scripts/main.js" defer></script>
   <title>Путешествия по России</title>
 </head>
 <body class="page">
   <header class="header">
     <img src="./images/header-logo.svg" alt="Логотип Россия" class="header__logo">
-    <ul class="header__lang">
+    <ul class="header__menu">
+      <li><a href="#" target="_self" class="header__about-button">О проекте</a></li>
       <li><a href="#" target="_self" class="header__lang-link header__lang-link_status_active">Ru</a></li>
       <li><a href="#" target="_self" class="header__lang-link">En</a></li>
     </ul>
@@ -144,6 +146,20 @@
         <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе — путешествие от&nbsp;столицы до&nbsp;Байкала на&nbsp;электричках.</p>
       </a>
     </section>
+
+    <div class="popup">
+      <div class="popup__content">
+        <button class="popup__close-button"></button>
+        <h2 class="popup__title">О проекте</h2>
+        <p class="popup__info">«Путешествия по России» — это проект, выполенный в рамках курса веб-разработки от Яндекс.Практикум.
+        Его задача — отточить навык адаптивной вёрстки и работы с Figma. А этот попап — кейс для отработки практики базового JavaScript.</p>
+        <button class="popup__image-link popup__image-link_hidden">Показать иллюстрацию</button>
+        <div class="popup__image-block">
+          <img src="./images/popup_image.png" alt="Иллюстрация к описанию проекта" class="popup__image">
+          <button class="popup__close-button popup__close-button_small"></button>
+        </div>
+      </div>
+    </div>
   </main>
 
   <footer class="footer">

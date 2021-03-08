@@ -1,0 +1,22 @@
+.popup__image-block {
+  position: relative;
+  width: 565px;
+  padding-top: 40px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  /* стили для экранов с разрешением менее 1024px по ширине */
+  .popup__image-block {
+    width: 300px;
+    padding-top: 30px;
+  }
+}
+
+
+@media screen and (max-width: 424px) {
+  /* стили для экранов с разрешением менее 425px по ширине */
+  .popup__image-block {
+    width: 250px;
+  }
+}

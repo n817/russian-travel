@@ -1,0 +1,16 @@
+.popup__close-button_small {
+  top: 40px;
+  right: -35px;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  /* стили для экранов с разрешением менее 1024px по ширине */
+  .popup__close-button_small {
+  top: 30px;
+  right: -25px;
+  width: 15px;
+  height: 15px;
+  }
+}

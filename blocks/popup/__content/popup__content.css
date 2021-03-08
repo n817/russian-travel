@@ -1,0 +1,24 @@
+.popup__content {
+  position: relative;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  padding: 50px 100px 50px 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+@media screen and (max-width: 1023px) {
+  /* стили для экранов с разрешением менее 1024px по ширине */
+  .popup__content {
+    padding: 30px 60px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  /* стили для экранов с разрешением менее 425px по ширине */
+  .popup__content {
+    padding: 20px 40px 20px 20px;
+  }
+}

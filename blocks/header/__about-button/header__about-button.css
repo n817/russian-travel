@@ -1,31 +1,32 @@
-.header__lang-link {
+.header__about-button {
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
   color: #FFFFFF;
-  text-decoration: none;
+  text-decoration: underline;
   margin: 0;
-  margin-left: 18px;
+  padding-right: 40px;
 }
 
-.header__lang-link:hover {
-  transition: opacity 0.2s linear;
-  opacity: 0.8;
+.header__about-button:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s;
 }
 
 @media screen and (max-width: 767px) {
   /* стили для экранов с разрешением менее 768px по ширине */
-  .header__lang-link {
+  .header__about-button {
     font-size: 18px;
     line-height: 20px;
+    padding-right: 20px;
   }
 }
 
 @media screen and (max-width: 424px) {
   /* стили для экранов с разрешением менее 425px по ширине */
-  .header__lang-link {
+  .header__about-button {
     font-size: 16px;
     line-height: 16px;
-    margin-left: 10px;
+    padding-right: 0px;
   }
 }
