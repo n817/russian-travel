@@ -1,4 +1,4 @@
-.header__about-button {
+.header__about-link {
   font-size: 24px;
   line-height: 28px;
   font-weight: 400;
@@ -8,14 +8,14 @@
   padding-right: 40px;
 }
 
-.header__about-button:hover {
+.header__about-link:hover {
   opacity: 0.5;
   transition: opacity 0.2s;
 }
 
 @media screen and (max-width: 767px) {
   /* стили для экранов с разрешением менее 768px по ширине */
-  .header__about-button {
+  .header__about-link {
     font-size: 18px;
     line-height: 20px;
     padding-right: 20px;
@@ -24,7 +24,7 @@
 
 @media screen and (max-width: 424px) {
   /* стили для экранов с разрешением менее 425px по ширине */
-  .header__about-button {
+  .header__about-link {
     font-size: 16px;
     line-height: 16px;
     padding-right: 0px;

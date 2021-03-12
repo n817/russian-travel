@@ -4,7 +4,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__about-button/header__about-button.css);
+@import url(../blocks/header/__about-link/header__about-link.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_status/header__lang-link_status_active.css);
 @import url(../blocks/lead/lead.css);
